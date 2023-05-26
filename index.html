@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Website Services Section</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .banner {
+                    width: 100%;
+                    background-color: coral;
+                    color:#fff;
+                    display: flex;
+                    flex-direction:column;
+                    align-items: center;
+                    justify-content: center;
+                    margin-bottom: 0px;
+                }
+            .container {
+                display: flex;
+                flex-direction: column;  
+                align-items:center;
+                justify-content: center;
+                gap: 2rem;
+                padding: 4rem 2rem;
+                text-align:center;
+            }
+            .service_title {
+                background-color: rgb(255, 123, 0);
+                color: #fff;
+                margin-bottom: 2px;
+            }
+            img {
+                height: 200px;
+                width: 300px;
+            }
+
+            .service_desc {
+                font-family: Arial,Helvetica,sans-serif;
+                font-size: 10px;
+                color:darkgoldenrod;
+                
+            }
+
+            @media screen and (min-width: 875px)  {
+                .banner p {
+                    width: 40%;
+                    display: flex;
+                    flex-direction:column;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: coral;
+                    color:#fff;
+                }
+
+                .container {
+                    flex-direction: row;
+                    gap: 1rem;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="banner">20 Years of Industry Experience <br> Our Services</div>
+        <div class="container">
+            <div class="service_image"><img src="/images/agronomy_cons_serv.png" alt="Agronomy consultancy services"></div>
+            <div class="service_title">Agronomy consultancy services</div>
+            <div class="service_desc">Have total control over your agribusiness venture. From land preparation to harvest Agrolytik on every step of the way will</div>
+            <div class="service_image"><img src="/images/precision_agronomy_serv.png" alt="Precision Agronomy Services"></div>
+            <div class="service_title">Precision Agronomy Services</div>
+            <div class="service_desc">Completely put your farm on auto-pilot as we use satellite Imagery and remote sensing technology to monitor key parameters of</div>
+            <div class="service_image"><img src="/images/farm_dig_training_serv.png" alt="Farm Digitization Training Services"></div>
+            <div class="service_title">Farm Digitization Training Services</div>
+            <div class="service_desc">We offer free and paid training programmes for Farmer-Based Organizations (FBOs), Individual commercial farmers and Farmer cooperatives on how to</div>
+        </div>
+    </body>
+</html>
